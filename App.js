@@ -1,15 +1,3 @@
-/**
- * <div id = "parent">
- *    <div id = "child">
- *        <h1>Hello i'm h1 tag</h1>
- *        <h2>Hello i'm h2 tag</h2>
- *    </div>
- *    <div id = "child2">
- *        <h1>Hello i'm h1 tag</h1>
- *        <h2>Hello i'm h2 tag</h2>
- *    </div>
- * </div>
- */
 
 const heading = React.createElement("div", { id: "parent" },
   [
@@ -26,4 +14,4 @@ const heading = React.createElement("div", { id: "parent" },
   ]
 );
 const Root = ReactDOM.createRoot(document.getElementById('root'));
-Root.render(heading)
+Root.render(heading);
